@@ -1,0 +1,268 @@
+{
+  "cache_memory": {
+    "dsa,dsa,truncate=False": {
+      "1024": {
+        "total_bytes": 134742016,
+        "total_gib": 0.1255,
+        "per_layer": [
+          {
+            "main_kv_bytes": 67108864,
+            "indexer_bytes": 262144
+          },
+          {
+            "main_kv_bytes": 67108864,
+            "indexer_bytes": 262144
+          }
+        ]
+      },
+      "4096": {
+        "total_bytes": 538968064,
+        "total_gib": 0.502,
+        "per_layer": [
+          {
+            "main_kv_bytes": 268435456,
+            "indexer_bytes": 1048576
+          },
+          {
+            "main_kv_bytes": 268435456,
+            "indexer_bytes": 1048576
+          }
+        ]
+      },
+      "8192": {
+        "total_bytes": 1077936128,
+        "total_gib": 1.0039,
+        "per_layer": [
+          {
+            "main_kv_bytes": 536870912,
+            "indexer_bytes": 2097152
+          },
+          {
+            "main_kv_bytes": 536870912,
+            "indexer_bytes": 2097152
+          }
+        ]
+      },
+      "16384": {
+        "total_bytes": 2155872256,
+        "total_gib": 2.0078,
+        "per_layer": [
+          {
+            "main_kv_bytes": 1073741824,
+            "indexer_bytes": 4194304
+          },
+          {
+            "main_kv_bytes": 1073741824,
+            "indexer_bytes": 4194304
+          }
+        ]
+      },
+      "32768": {
+        "total_bytes": 4311744512,
+        "total_gib": 4.0156,
+        "per_layer": [
+          {
+            "main_kv_bytes": 2147483648,
+            "indexer_bytes": 8388608
+          },
+          {
+            "main_kv_bytes": 2147483648,
+            "indexer_bytes": 8388608
+          }
+        ]
+      }
+    },
+    "dsa,swa,truncate=False": {
+      "1024": {
+        "total_bytes": 134479872,
+        "total_gib": 0.1252,
+        "per_layer": [
+          {
+            "main_kv_bytes": 67108864,
+            "indexer_bytes": 262144
+          },
+          {
+            "main_kv_bytes": 67108864,
+            "indexer_bytes": 0
+          }
+        ]
+      },
+      "4096": {
+        "total_bytes": 537919488,
+        "total_gib": 0.501,
+        "per_layer": [
+          {
+            "main_kv_bytes": 268435456,
+            "indexer_bytes": 1048576
+          },
+          {
+            "main_kv_bytes": 268435456,
+            "indexer_bytes": 0
+          }
+        ]
+      },
+      "8192": {
+        "total_bytes": 1075838976,
+        "total_gib": 1.002,
+        "per_layer": [
+          {
+            "main_kv_bytes": 536870912,
+            "indexer_bytes": 2097152
+          },
+          {
+            "main_kv_bytes": 536870912,
+            "indexer_bytes": 0
+          }
+        ]
+      },
+      "16384": {
+        "total_bytes": 2151677952,
+        "total_gib": 2.0039,
+        "per_layer": [
+          {
+            "main_kv_bytes": 1073741824,
+            "indexer_bytes": 4194304
+          },
+          {
+            "main_kv_bytes": 1073741824,
+            "indexer_bytes": 0
+          }
+        ]
+      },
+      "32768": {
+        "total_bytes": 4303355904,
+        "total_gib": 4.0078,
+        "per_layer": [
+          {
+            "main_kv_bytes": 2147483648,
+            "indexer_bytes": 8388608
+          },
+          {
+            "main_kv_bytes": 2147483648,
+            "indexer_bytes": 0
+          }
+        ]
+      }
+    },
+    "dsa,swa,truncate=True": {
+      "1024": {
+        "total_bytes": 134479872,
+        "total_gib": 0.1252,
+        "per_layer": [
+          {
+            "main_kv_bytes": 67108864,
+            "indexer_bytes": 262144
+          },
+          {
+            "main_kv_bytes": 67108864,
+            "indexer_bytes": 0
+          }
+        ]
+      },
+      "4096": {
+        "total_bytes": 537919488,
+        "total_gib": 0.501,
+        "per_layer": [
+          {
+            "main_kv_bytes": 268435456,
+            "indexer_bytes": 1048576
+          },
+          {
+            "main_kv_bytes": 268435456,
+            "indexer_bytes": 0
+          }
+        ]
+      },
+      "8192": {
+        "total_bytes": 807403520,
+        "total_gib": 0.752,
+        "per_layer": [
+          {
+            "main_kv_bytes": 536870912,
+            "indexer_bytes": 2097152
+          },
+          {
+            "main_kv_bytes": 268435456,
+            "indexer_bytes": 0
+          }
+        ]
+      },
+      "16384": {
+        "total_bytes": 1346371584,
+        "total_gib": 1.2539,
+        "per_layer": [
+          {
+            "main_kv_bytes": 1073741824,
+            "indexer_bytes": 4194304
+          },
+          {
+            "main_kv_bytes": 268435456,
+            "indexer_bytes": 0
+          }
+        ]
+      },
+      "32768": {
+        "total_bytes": 2424307712,
+        "total_gib": 2.2578,
+        "per_layer": [
+          {
+            "main_kv_bytes": 2147483648,
+            "indexer_bytes": 8388608
+          },
+          {
+            "main_kv_bytes": 268435456,
+            "indexer_bytes": 0
+          }
+        ]
+      }
+    }
+  },
+  "flops": {
+    "1024": {
+      "dsa_main_attn": 67108864,
+      "dsa_indexer_score": 8454144,
+      "dsa_indexer_proj": 18743296,
+      "dsa_total": 94306304,
+      "swa_total": 67108864,
+      "swa_window_effective": 1024,
+      "dsa_topk_effective": 1024
+    },
+    "4096": {
+      "dsa_main_attn": 134217728,
+      "dsa_indexer_score": 33816576,
+      "dsa_indexer_proj": 18743296,
+      "dsa_total": 186777600,
+      "swa_total": 268435456,
+      "swa_window_effective": 4096,
+      "dsa_topk_effective": 2048
+    },
+    "8192": {
+      "dsa_main_attn": 134217728,
+      "dsa_indexer_score": 67633152,
+      "dsa_indexer_proj": 18743296,
+      "dsa_total": 220594176,
+      "swa_total": 268435456,
+      "swa_window_effective": 4096,
+      "dsa_topk_effective": 2048
+    },
+    "16384": {
+      "dsa_main_attn": 134217728,
+      "dsa_indexer_score": 135266304,
+      "dsa_indexer_proj": 18743296,
+      "dsa_total": 288227328,
+      "swa_total": 268435456,
+      "swa_window_effective": 4096,
+      "dsa_topk_effective": 2048
+    },
+    "32768": {
+      "dsa_main_attn": 134217728,
+      "dsa_indexer_score": 270532608,
+      "dsa_indexer_proj": 18743296,
+      "dsa_total": 423493632,
+      "swa_total": 268435456,
+      "swa_window_effective": 4096,
+      "dsa_topk_effective": 2048
+    }
+  },
+  "latency": {}
+}

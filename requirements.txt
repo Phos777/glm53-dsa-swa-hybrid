@@ -1,0 +1,4 @@
+transformers==5.16.1
+torch>=2.6
+safetensors
+pytest

@@ -1,0 +1,53 @@
+{
+  "checkpoint": "checkpoints/glm53-mini-2l",
+  "hybrid_pattern": [
+    "dsa",
+    "swa"
+  ],
+  "loaded": {
+    "keys": 32,
+    "params": 2695597312,
+    "bytes": 5391194624
+  },
+  "dropped_by_design": {
+    "keys": 5,
+    "params": 9371904,
+    "bytes": 18743808
+  },
+  "dropped_keys": [
+    "model.layers.1.self_attn.indexer.k_norm.bias",
+    "model.layers.1.self_attn.indexer.k_norm.weight",
+    "model.layers.1.self_attn.indexer.weights_proj.weight",
+    "model.layers.1.self_attn.indexer.wk.weight",
+    "model.layers.1.self_attn.indexer.wq_b.weight"
+  ],
+  "missing": [],
+  "unexpected": [],
+  "by_module": {
+    "layer_0": {
+      "keys": 17,
+      "params": 400898816,
+      "bytes": 801797632
+    },
+    "layer_1": {
+      "keys": 12,
+      "params": 391526912,
+      "bytes": 783053824
+    },
+    "lm_head": {
+      "keys": 1,
+      "params": 951582720,
+      "bytes": 1903165440
+    },
+    "model.embed_tokens": {
+      "keys": 1,
+      "params": 951582720,
+      "bytes": 1903165440
+    },
+    "model.norm": {
+      "keys": 1,
+      "params": 6144,
+      "bytes": 12288
+    }
+  }
+}
